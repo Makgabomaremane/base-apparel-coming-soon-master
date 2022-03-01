@@ -1,0 +1,41 @@
+
+body{
+    font-size:16px;
+    
+    font-family: 'Josefin Sans', sans-serif;
+    }
+    header img{
+    position:center;
+    }
+    td{
+    color:hsl(0,36%,70%);
+    
+    font-size:20px;
+    }
+    td h2{
+    color:black;
+    }
+     .attribution {
+     font-size: 11px;
+     text-align: center; 
+     }
+     .attribution a { 
+     color: hsl(228, 45%, 44%); 
+     }
+     #img{
+        position: relative;
+        left:240px;
+        top: -45px;
+    }
+    input[type=text] 
+{
+    background-image: url('./images/icon-error.svg');
+    background-position: 10px 10px;
+    background: no-repeat;
+    height: 25px;
+    border-radius: 8px;
+}
+#form{
+    margin-left: 110px;  
+}
+    

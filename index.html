@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,400;1,100;1,400&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+<header>
+<img src="./images/logo.svg">
+</header>
+<table>
+<tr>
+<td>
+ <h1> W E ' R E </h1>
+<h2> C O M I N G <br>S O O N</h2>
+
+ <p> Hello fellow shoppers! We're currently building our new <br> fashion store. 
+  Add your email below to stay up-to-date with<br> announcements and our launch deals.<br>
+
+  <form name="valEmail" action="#">
+
+
+    <ul id="form" align="left">
+      <input type=" email" name = "email" placeholder="Email Address" required> 
+      <input type="submit" name="submit" value="Submit"  onclick="ValidateEmail(document.valEmail.email)">
+    </ul>
+
+  </form>
+</p>
+
+ 
+</td>
+<script src="./index.js"></script>
+<td>
+  <img src="./images/hero-desktop.jpg" id = "img" >
+
+</td>
+</tr>
+</table>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Makgabo Maremane</a>.
+    </p>
+  </footer>
+</body>
+</html>
